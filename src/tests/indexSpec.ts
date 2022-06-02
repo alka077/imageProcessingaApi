@@ -1,12 +1,6 @@
 import supertest from 'supertest';
 import app from '../index';
 import resizeImage from '../utilities/resizeImage';
-
-const request = supertest(app);
-
-import supertest from 'supertest';
-import app from '../index';
-import resizeImage from '../utilities/resizeImage';
 import express from 'express';
 
 const request = supertest(app);
